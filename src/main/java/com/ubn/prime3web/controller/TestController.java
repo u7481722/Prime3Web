@@ -24,7 +24,7 @@ public class TestController implements Serializable {
         
         Thread.sleep(4000);
         
-        System.out.println("kevin test.....");
+        System.out.println("kevin test123.....");
         FacesContext context = FacesContext.getCurrentInstance();
          
         context.addMessage(null, new FacesMessage("Successful",  "Your message: 111" ) );
