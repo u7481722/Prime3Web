@@ -5,7 +5,7 @@
  */
 package com.ubn.prime3web.controller;
 
-import javax.inject.Named;
+import javax.inject.Named; 
 import javax.enterprise.context.SessionScoped;
 import java.io.Serializable;
 import javax.faces.application.FacesMessage;
@@ -13,7 +13,7 @@ import javax.faces.context.FacesContext;
 
 /**
  *
- * @author kevin
+ * @author kevin111
  */
 @Named(value = "testController")
 @SessionScoped
